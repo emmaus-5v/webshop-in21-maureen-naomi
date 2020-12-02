@@ -12,84 +12,38 @@ insert into products (name, description, code, price) values ('Temaki', 'Sushi, 
 insert into products (name, description, code, price) values ('Mihoen Goreng', 'Dunne noodles die lekker smaken', 'japan-05', 9);
 insert into products (name, description, code, price) values ('Nasi Goreng', 'Rijst dat lekker smaakt', 'japan-06', 6);
 insert into products (name, description, code, price) values ('Edamame', 'Lekkere sojaboontjes die goed zijn voor je gezondheid', 'japan-07', 2);
-insert into products (name, description, code, price) values ('Treatment, The', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+insert into products (name, description, code, price) values ('Yakitori', 'Malse kipspiesjes met zoetzure saus.', 'japan-08', 5);
+insert into products (name, description, code, price) values ('Tatsuta-age', 'Gefrituurde kip, gemarineerd in sojasaus en gember.', 'japan-09', 6);
+insert into products (name, description, code, price) values ('Okonomiyaki', 'Pannekoekjes met zeewier, groenten, vlees en vis.', 'japan-10', 13);
+insert into products (name, description, code, price) values ('Shabu shabu', 'Pannetje bouillon met vlees, vis, groenten, noodles en dim sum.', 'japan-11' 12);
+insert into products (name, description, code, price) values ('Sukiyaki', 'In bouillon gesmoorde groenten, wagyu, tofu, noodles, bieslook, kool en paddenstoeltjes.', 'japan-12', 14);
 
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '123989705-7', 10.5);
-insert into products (name, description, code, price) values ('Blind Fury', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+insert into products (name, description, code, price) values ('Tagliatelle met arnalen', 'Romige verse tagliatelle met garnalen.', 'italië-01', 12.5);
+insert into products (name, description, code, price) values ('Lasagne', 'Een zomers gerecht met verse groentes en huisgemaakte bladen.', 'italië-02', 14);
+insert into products (name, description, code, price) values ('Risotto', 'Romig rijsgerecht met een rijk bospaddenstoel assortiment.', 'italië-03', 13.5);
+insert into products (name, description, code, price) values ('Carpaccio', 'Dungesneden rundercarpaccio met knapperige pijnboompitten, rucola en parmezaanse kaas.', 'italië-04', 5);
+insert into products (name, description, code, price) values ('Vitello tonnato', 'Een klassiek Italiaans zomergerecht met malse kalf en tonijn.', 'italië-05', 5.5);
+insert into products (name, description, code, price) values ('Gnocchi ovenschotel', 'Heerlijk in de oven gegaarde gnocchi met kip en spinazie.', 'italië-06', 14.5);
+insert into products (name, description, code, price) values ('Spaghetti aglio e olio', 'Typisch Italiaans voorgerecht met knoflook, olijfolie en peterselie.', 'italië-07', 8.5);
+insert into products (name, description, code, price) values ('Caprese salade', 'Fris voorgerecht met tomaat, mozarella en basilicum.', 'italië-08', 6.5);
+insert into products (name, description, code, price) values ('Gelato-asorti', 'Assortiment van verschillende ijsbolletjes.', 'italië-09', 8);
+insert into products (name, description, code, price) values ('Tiramisu', 'Lekker Italiaans toetje met eem scheutje alcohol.', 'italië-10', 7);
+insert into products (name, description, code, price) values ('Ravioli', 'Gevulde kussentjes met tomaatjes uit de oven', 'italië-11', 14.5);
+insert into products (name, description, code, price) values ('Bruschetta', 'Knapperig stokbrood met tomaat en ui.', 'italië-12', 4);
 
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '917165206-X', 15);
-insert into products (name, description, code, price) values ('Gothic', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', '158335316-X', 13);
-insert into products (name, description, code, price) values ('Hoot', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+insert into products (name, description, code, price) values ('Pannenkoeken', 'American pancakes met spek, boter, stroop en fruit.', 'amerika-01', 6);
+insert into products (name, description, code, price) values ('Hash browns', 'Rösti koekjes met ui en ei.', 'amerika-02', 10.5);
+insert into products (name, description, code, price) values ('Gevulde aardappels', 'Aardappels gevuld met bosui en bacon.', 'amerika-03', 14.5);
+insert into products (name, description, code, price) values ('Spare ribs', 'Lang gegaarde spare ribs met zoete saus', 'amerika-04', 14.5);
+insert into products (name, description, code, price) values ('Pizza Hawaii', 'Geen woorden voor, gratis af te halen.', 'amerika-05', 0);
+insert into products (name, description, code, price) values ('Hot dogs', 'Broodjes met worst en saus', 'amerika-06', 4);
+insert into products (name, description, code, price) values ('Kalkoen', 'Kalkoen', 'amerika-07', 10.5);
+insert into products (name, description, code, price) values ('BLT sandwich', 'Stokbrood met frisse sla, bacon en tomaat getopt met mayonaise.', 'amerika-08', 5);
+insert into products (name, description, code, price) values ("Mac 'n cheese", 'Macaroni met kaas kaas en nog eens kaas.', 'amerika-09', 8);
+insert into products (name, description, code, price) values ('Cupcakes', 'Klein, vrolijk cakeje.', 'amerika-10', 3.5);
+insert into products (name, description, code, price) values ('Bagel', 'Belegd broodje met gerookte zalm en bieslookroomkaas.', 'amerika-11', 7,5);
+insert into products (name, description, code, price) values ('Donut', 'Zoet broodje met glazuur topping', 'amerika-12', 4,5);
 
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', '406911007-0', 12);
-insert into products (name, description, code, price) values ('Syrup', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '547253543-3', 14);
-insert into products (name, description, code, price) values ('Edukators, The (Die Fetten Jahre sind vorbei)', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '690994502-6', 10.5);
-insert into products (name, description, code, price) values ('Modesty Blaise', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', '676124066-2', 12.5);
-insert into products (name, description, code, price) values ('Les modèles de ''Pickpocket''', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '457174385-8', 14);
-insert into products (name, description, code, price) values ('Happy New Year', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '031445258-3', 13.5);
-insert into products (name, description, code, price) values ('Road to Perdition', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '719322921-4', 12.5);
-insert into products (name, description, code, price) values ('Wild Heritage', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '514202783-3', 14.5);
-insert into products (name, description, code, price) values ('Godzilla vs. Mechagodzilla (Gojira tai Mekagojira)', 'In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '185213824-6', 14.5);
-insert into products (name, description, code, price) values ('Nocturna Artificialia', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '229696258-0', 11.5);
-insert into products (name, description, code, price) values ('White Night (Hvid nat)', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', '462606529-5', 12);
-insert into products (name, description, code, price) values ('Streets of Laredo', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', '094829684-4', 12.5);
-insert into products (name, description, code, price) values ('White Sheik, The (Sceicco bianco, Lo)', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '757434486-8', 13.5);
-insert into products (name, description, code, price) values ('Cyberbully', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '531150277-0', 14.5);
-insert into products (name, description, code, price) values ('Gray''s Anatomy', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', '891005079-9', 10.5);
-insert into products (name, description, code, price) values ('Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '462458388-4', 11.5);
-insert into products (name, description, code, price) values ('Lucky Break (a.k.a. Paperback Romance)', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', '724683964-X', 10.5);
-insert into products (name, description, code, price) values ('Elvis: That''s the Way It Is', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', '650761175-1', 14.5);
-insert into products (name, description, code, price) values ('High Risk', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', '045934636-9', 14.5);
-insert into products (name, description, code, price) values ('Rosenstrasse', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', '157794386-4', 10.5);
-insert into products (name, description, code, price) values ('24 Hour Woman, The', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', '730818256-8', 13);
-insert into products (name, description, code, price) values ('Autumn Tale, An (Conte d''automne)', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', '176779287-5', 10.5);
-insert into products (name, description, code, price) values ('Blood on the Moon', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '684348302-X', 10.5);
-insert into products (name, description, code, price) values ('Peter Pan', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', '699321117-3', 12);
-insert into products (name, description, code, price) values ('Love Happens', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', '735396683-1', 11.5);
-insert into products (name, description, code, price) values ('Three Came Home', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', '512191540-3', 12.5);
-insert into products (name, description, code, price) values ('Bio-Dome', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '417577919-1', 12.5);
 insert into products (name, description, code, price) values ('Tom Segura: Completely Normal', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', '937737230-5', 12);
 insert into products (name, description, code, price) values ('New York, New York', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '979057050-3', 11);
 insert into products (name, description, code, price) values ('Psychopath, The', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
