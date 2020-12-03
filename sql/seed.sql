@@ -34,6 +34,7 @@ insert into products (name, description, code, price) values ('Bruschetta', 'Kna
 insert into products (name, description, code, price) values ('Pannenkoeken', 'American pancakes met spek, boter, stroop en fruit.', 'amerika-01', 6);
 insert into products (name, description, code, price) values ('Hash browns', 'Rösti koekjes met ui en ei.', 'amerika-02', 10.5);
 insert into products (name, description, code, price) values ('Gevulde aardappels', 'Aardappels gevuld met bosui en bacon.', 'amerika-03', 14.5);
+/*
 insert into products (name, description, code, price) values ('Spare ribs', 'Lang gegaarde spare ribs met zoete saus', 'amerika-04', 14.5);
 insert into products (name, description, code, price) values ('Pizza Hawaii', 'Geen woorden voor, gratis af te halen.', 'amerika-05', 0);
 insert into products (name, description, code, price) values ('Hot dogs', 'Broodjes met worst en saus', 'amerika-06', 4);
@@ -43,6 +44,7 @@ insert into products (name, description, code, price) values ("Mac 'n cheese", '
 insert into products (name, description, code, price) values ('Cupcakes', 'Klein, vrolijk cakeje.', 'amerika-10', 3.5);
 insert into products (name, description, code, price) values ('Bagel', 'Belegd broodje met gerookte zalm en bieslookroomkaas.', 'amerika-11', 7,5);
 insert into products (name, description, code, price) values ('Donut', 'Zoet broodje met glazuur topping', 'amerika-12', 4,5);
+*/
 
 insert into products (name, description, code, price) values ('Crêpe Normade', 'Flinterdun pannekoekje', 'frankrijk-01', 3.5);
 insert into products (name, description, code, price) values ('Baguette', 'Stokbrood met kaas en tomaat', 'frankrijk-02', 2);
