@@ -44,22 +44,12 @@ insert into products (name, description, code, price) values ('Cupcakes', 'Klein
 insert into products (name, description, code, price) values ('Bagel', 'Belegd broodje met gerookte zalm en bieslookroomkaas.', 'amerika-11', 7,5);
 insert into products (name, description, code, price) values ('Donut', 'Zoet broodje met glazuur topping', 'amerika-12', 4,5);
 
-insert into products (name, description, code, price) values ('Tom Segura: Completely Normal', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', '937737230-5', 12);
-insert into products (name, description, code, price) values ('New York, New York', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', '979057050-3', 11);
-insert into products (name, description, code, price) values ('Psychopath, The', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', '878961608-1', 14);
-insert into products (name, description, code, price) values ('Second in Command', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '329436997-2', 10.5);
-insert into products (name, description, code, price) values ('Tennessee Johnson', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', '686755926-3', 11);
-insert into products (name, description, code, price) values ('Eight Men Out', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', '922942265-7', 10.5);
+insert into products (name, description, code, price) values ('Crêpe Normade', 'Flinterdun pannekoekje', 'frankrijk-01', 3.5);
+insert into products (name, description, code, price) values ('Baguette', 'Stokbrood met kaas en tomaat', 'frankrijk-02', 2);
+insert into products (name, description, code, price) values ('Coquilles', 'Zachte zeevrucht, vers gevangen.', 'frankrijk-03', 21);
+insert into products (name, description, code, price) values ('Croissants', 'Luchtige broodjes met bourgondische jam.', 'frankrijk-04', 2);
+insert into products (name, description, code, price) values ('Crème Brûlée', 'Custard gebak met suiker laagje.', 'frankrijk-05', 6);
+insert into products (name, description, code, price) values ('Boeuf bourguignon', 'In rode wijn gestoofd rundvlees.', 'frankrijk-06', 16);
 insert into products (name, description, code, price) values ('Russendisko', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
 
 Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
