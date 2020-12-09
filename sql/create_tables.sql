@@ -12,7 +12,7 @@ CREATE TABLE products (
 DROP TABLE IF EXISTS landen;
 CREATE TABLE landen {
   ID SERIAL PRIMARY KEY,
-  naam TEXT
+  name TEXT
 }
 
 DROP TABLE IF EXISTS relaties;
