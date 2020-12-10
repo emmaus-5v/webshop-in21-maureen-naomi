@@ -10,18 +10,18 @@ CREATE TABLE products (
 
 
 DROP TABLE IF EXISTS landen;
-CREATE TABLE landen {
+CREATE TABLE landen (
   ID SERIAL PRIMARY KEY,
   name TEXT
-}
+);
 
 DROP TABLE IF EXISTS relaties;
-CREATE TABLE relaties {
+CREATE TABLE relaties (
   ID SERIAL PRIMARY KEY,
   product1_id INTEGER,
   product2_id INTEGER
 
-}
+);
 
 
 /*DROP TABLE IF EXISTS products; 

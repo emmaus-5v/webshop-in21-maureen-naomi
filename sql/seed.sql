@@ -39,10 +39,10 @@ insert into products (name, description, code, price, land_id) values ('Pizza Ha
 insert into products (name, description, code, price, land_id) values ('Hot dogs', 'Broodjes met worst en saus', 'amerika-06', 4, 3);
 insert into products (name, description, code, price, land_id) values ('Kalkoek', 'Kalkoen', 'amerika-07', 10.5, 3);
 insert into products (name, description, code, price, land_id) values ('BLT sandwich', 'Stokbrood met frisse sla, bacon en tomaat getopt met mayonaise.', 'amerika-08', 5, 3);
-insert into products (name, description, code, price, land_id) values ("Mac 'n cheese", 'Macaroni met kaas kaas en nog eens kaas.', 'amerika-09', 8, 3);
+insert into products (name, description, code, price, land_id) values (' Mac and cheese', 'Macaroni met kaas kaas en nog eens kaas.', 'amerika-09', 8, 3);
 insert into products (name, description, code, price, land_id) values ('Cupcakes', 'Klein, vrolijk cakeje.', 'amerika-10', 3.5, 3);
-insert into products (name, description, code, price, land_id) values ('Bagel', 'Belegd broodje met gerookte zalm en bieslookroomkaas.', 'amerika-11', 7,5, 3);
-insert into products (name, description, code, price, land_id) values ('Donut', 'Zoet broodje met glazuur topping', 'amerika-12', 4,5, 3);
+insert into products (name, description, code, price, land_id) values ('Bagel', 'Belegd broodje met gerookte zalm en bieslookroomkaas.', 'amerika-11', 7.5, 3);
+insert into products (name, description, code, price, land_id) values ('Donut', 'Zoet broodje met glazuur topping', 'amerika-12', 4.5, 3);
 
 /*
 insert into products (name, description, code, price, land_id) values ('Crêpe Normade', 'Flinterdun pannekoekje', 'frankrijk-01', 3.5);
@@ -233,12 +233,14 @@ Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan fe
 insert into products (name, description, code, price) values ('The Four Feathers', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', '704137368-1', 13.5);
 insert into products (name, description, code, price) values ('First Daughter', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
 
-<<<<<<< HEAD
 Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '637276459-8', 11.5); */ 
 
 insert into landen (id, name) values (1, 'Japan' );
 insert into landen (id, name) values (2, 'Italië' );
 insert into landen (id, name) values (3, 'Amerika' );
+
+
+
 
 insert into relaties (id, product1_id, product2_id) values (1, ?, ?);
 insert into relaties (id, product1_id, product2_id) values (2, ?, ?);
@@ -247,7 +249,3 @@ insert into relaties (id, product1_id, product2_id) values (4, ?, ?);
 insert into relaties (id, product1_id, product2_id) values (5, ?, ?);
 insert into relaties (id, product1_id, product2_id) values (6, ?, ?);
 insert into relaties (id, product1_id, product2_id) values (7, ?, ?);
-=======
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '637276459-8', 11.5);
-*/
->>>>>>> f284149f1201a6bbfaa9c8266da93514c29892c9
