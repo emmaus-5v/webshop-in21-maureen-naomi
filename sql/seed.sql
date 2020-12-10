@@ -239,12 +239,10 @@ insert into landen (id, name) values (1, 'Japan' );
 insert into landen (id, name) values (2, 'Italië' );
 insert into landen (id, name) values (3, 'Amerika' );
 
-/*DROP TABLE IF EXISTS relaties;
-CREATE TABLE relaties {
-  ID SERIAL PRIMARY KEY,
-  product1_id INTEGER,
-  product2_id INTEGER
-
-}*/
-
-insert into relaties (id, product1_id, product2_id) values (kfdjsakfl;dsjkfl;dsjf);
+insert into relaties (id, product1_id, product2_id) values (1, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (2, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (3, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (4, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (5, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (6, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (7, ?, ?);
