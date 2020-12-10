@@ -37,7 +37,7 @@ insert into products (name, description, code, price, land_id) values ('Gevulde 
 insert into products (name, description, code, price, land_id) values ('Spare ribs', 'Lang gegaarde spare ribs met zoete saus', 'amerika-04', 14.5, 3);
 insert into products (name, description, code, price, land_id) values ('Pizza Hawaii', 'Geen woorden voor, gratis af te halen.', 'amerika-05', 0, 3);
 insert into products (name, description, code, price, land_id) values ('Hot dogs', 'Broodjes met worst en saus', 'amerika-06', 4, 3);
-/*insert into products (name, description, code, price, land_id) values ('Hot dogs', 'Broodjes met worst en saus', 'amerika-07', 4, 3);*/
+insert into products (name, description, code, price, land_id) values ('Kalkoek', 'Kalkoen', 'amerika-07', 10.5, 3);
 insert into products (name, description, code, price, land_id) values ('BLT sandwich', 'Stokbrood met frisse sla, bacon en tomaat getopt met mayonaise.', 'amerika-08', 5, 3);
 insert into products (name, description, code, price, land_id) values ("Mac 'n cheese", 'Macaroni met kaas kaas en nog eens kaas.', 'amerika-09', 8, 3);
 insert into products (name, description, code, price, land_id) values ('Cupcakes', 'Klein, vrolijk cakeje.', 'amerika-10', 3.5, 3);
