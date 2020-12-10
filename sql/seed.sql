@@ -7,15 +7,15 @@
 
 insert into products (name, description, code, price, land_id) values ('Sushi', 'Rijstgerecht met zeewier en vis + gratis wasabi, sojasaus en stokjes.', 'japan-01', 3, 1);
 insert into products (name, description, code, price, land_id) values ('Sushi box', 'Rijstgerecht met zeewier en vis + gratis wasabi, sojasaus en stokjes. Combinatie-box van 20 stuks', 'japan-02', 25, 1);
-insert into products (name, description, code, price, land_id) values ('Noodles', 'Sliertjes met groentes en garnalen.', 'japan-03', 8), 1;
+insert into products (name, description, code, price, land_id) values ('Noodles', 'Sliertjes met groentes en garnalen.', 'japan-03', 8, 1);
 insert into products (name, description, code, price, land_id) values ('Temaki', 'Sushi, maar dan groot.', 'japan-04', 5, 1);
 insert into products (name, description, code, price, land_id) values ('Mihoen Goreng', 'Dunne noodles die lekker smaken', 'japan-05', 9, 1);
-insert into products (name, description, code, price, land_id) values ('Nasi Goreng', 'Rijst dat lekker smaakt', 'japan-06', 6), 1;
+insert into products (name, description, code, price, land_id) values ('Nasi Goreng', 'Rijst dat lekker smaakt', 'japan-06', 6, 1);
 insert into products (name, description, code, price, land_id) values ('Edamame', 'Lekkere sojaboontjes die goed zijn voor je gezondheid', 'japan-07', 2, 1);
 insert into products (name, description, code, price, land_id) values ('Yakitori', 'Malse kipspiesjes met zoetzure saus.', 'japan-08', 5, 1);
 insert into products (name, description, code, price, land_id) values ('Tatsuta-age', 'Gefrituurde kip, gemarineerd in sojasaus en gember.', 'japan-09', 6, 1);
 insert into products (name, description, code, price, land_id) values ('Okonomiyaki', 'Pannekoekjes met zeewier, groenten, vlees en vis.', 'japan-10', 13, 1);
-insert into products (name, description, code, price, land_id) values ('Shabu shabu', 'Pannetje bouillon met vlees, vis, groenten, noodles en dim sum.', 'japan-11' 12, 1);
+insert into products (name, description, code, price, land_id) values ('Shabu shabu', 'Pannetje bouillon met vlees, vis, groenten, noodles en dim sum.', 'japan-11', 12, 1);
 insert into products (name, description, code, price, land_id) values ('Sukiyaki', 'In bouillon gesmoorde groenten, wagyu, tofu, noodles, bieslook, kool en paddenstoeltjes.', 'japan-12', 14, 1);
 
 insert into products (name, description, code, price, land_id) values ('Tagliatelle met arnalen', 'Romige verse tagliatelle met garnalen.', 'italië-01', 12.5, 2);
@@ -234,18 +234,31 @@ insert into products (name, description, code, price) values ('The Four Feathers
 insert into products (name, description, code, price) values ('First Daughter', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
 
 Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', '637276459-8', 11.5); */ 
+/*
+DROP TABLE IF EXISTS landen;
+CREATE TABLE landen (
+  ID SERIAL PRIMARY KEY,
+  name TEXT
+);*/
 
 insert into landen (id, name) values (1, 'Japan' );
 insert into landen (id, name) values (2, 'Italië' );
 insert into landen (id, name) values (3, 'Amerika' );
 
+/*
+DROP TABLE IF EXISTS relaties;
+CREATE TABLE relaties (
+  ID SERIAL PRIMARY KEY,
+  product1_id INTEGER,
+  product2_id INTEGER
 
+);*/
 
-
-insert into relaties (id, product1_id, product2_id) values (1, ?, ?);
-insert into relaties (id, product1_id, product2_id) values (2, ?, ?);
-insert into relaties (id, product1_id, product2_id) values (3, ?, ?);
-insert into relaties (id, product1_id, product2_id) values (4, ?, ?);
-insert into relaties (id, product1_id, product2_id) values (5, ?, ?);
-insert into relaties (id, product1_id, product2_id) values (6, ?, ?);
-insert into relaties (id, product1_id, product2_id) values (7, ?, ?);
+insert into relaties (id, product1_id, product2_id) values (1, 1, 2);
+insert into relaties (id, product1_id, product2_id) values (2, 2, 1);
+insert into relaties (id, product1_id, product2_id) values (3, 3, 4);
+insert into relaties (id, product1_id, product2_id) values (4, 4, 3);
+insert into relaties (id, product1_id, product2_id) values (5, 5, 6);
+insert into relaties (id, product1_id, product2_id) values (6, 6, 5);
+insert into relaties (id, product1_id, product2_id) values (7, 7, 8);
+insert into relaties (id, product1_id, product2_id) values (7, 8, 7);
