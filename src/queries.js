@@ -64,7 +64,7 @@ const getProductsByIds = (ids, callback) => {
 
 const getProductById = (request, response) => {
   const id = parseInt(request.params.id)
-  pool.query('SELECT * FROM products WHERE id = $1', [id], (error, results) => { // voeg hier de join toe tussen products en WHERE
+  pool.query('SELECT * FROM products JOIN landen ON products.land_id = landen.id WHERE id = $1', [id], (error, results) => { // voeg hier de join toe tussen products en WHERE
     if (error) {
       console.log(error)
       response.status(500).json("oops")
