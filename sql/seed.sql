@@ -52,25 +52,13 @@ insert into products (name, description, code, price, land_id) values ('Croissan
 insert into products (name, description, code, price, land_id) values ('Crème Brûlée', 'Custard gebak met suiker laagje.', 'frankrijk-05', 6);
 insert into products (name, description, code, price, land_id) values ('Boeuf bourguignon', 'In rode wijn gestoofd rundvlees.', 'frankrijk-06', 16);
 */ 
-/*
-DROP TABLE IF EXISTS landen;
-CREATE TABLE landen (
-  ID SERIAL PRIMARY KEY,
-  name TEXT
-);*/
+
 
 insert into landen (id, name) values (1, 'Japan' );
 insert into landen (id, name) values (2, 'Italië' );
 insert into landen (id, name) values (3, 'Amerika' );
 
-/*
-DROP TABLE IF EXISTS relaties;
-CREATE TABLE relaties (
-  ID SERIAL PRIMARY KEY,
-  product1_id INTEGER,
-  product2_id INTEGER
 
-);*/
 
 insert into relaties (id, product1_id, product2_id) values (1, 1, 2);
 insert into relaties (id, product1_id, product2_id) values (2, 2, 1);
@@ -111,4 +99,14 @@ insert into relaties (id, product1_id, product2_id) values (34, 34, 33);
 insert into relaties (id, product1_id, product2_id) values (35, 35, 36);
 insert into relaties (id, product1_id, product2_id) values (36, 36, 35);
 
+/* We hadden ook JOINs gemaakt:
+     
+     SELECT * FROM products
+      JOIN relaties 
+      ON products.id = relaties.product1_id
+      ON products.id = relaties.product2_id;
+
+    SELECT * FROM products JOIN landen ON products.land_id = landen.id WHERE id = $1 
+
+    deze laatste join is ook te vinden in het mapje queries.js van src in regel 67 */
 /*einde*/

@@ -165,3 +165,5 @@ done
 # Credits
 
 -  Robert Bakker [Notalifeform](https://www.gihub.com/Notalifeform)
+
+!!!!!!!!!!!! IN DE MAP SEED.SQL ZIJN DE JOINS TE VINDEN !!!!!!!!!!!!!!!!!
