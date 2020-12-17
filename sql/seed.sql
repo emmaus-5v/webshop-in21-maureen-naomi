@@ -292,3 +292,5 @@ insert into relaties (id, product1_id, product2_id) values (33, 33, 34);
 insert into relaties (id, product1_id, product2_id) values (34, 34, 33);
 insert into relaties (id, product1_id, product2_id) values (35, 35, 36);
 insert into relaties (id, product1_id, product2_id) values (36, 36, 35);
+
+/*einde*/
